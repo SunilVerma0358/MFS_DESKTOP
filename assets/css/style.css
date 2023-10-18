@@ -1,0 +1,661 @@
+@import url('./root.css');
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* common-class */
+
+.bg_gray {
+    background-color: var(--mid-gray, #E9E6F5);
+}
+
+.custom_container_1600 {
+    max-width: 1600px !important;
+}
+
+.custom_container_1588 {
+    max-width: 1588px !important;
+}
+
+.custom_container {
+    max-width: 779px !important;
+}
+
+.custom_container_1140 {
+    max-width: 1140px !important;
+}
+
+
+/* custom-btn */
+
+.custom_btn {
+    border: 1px solid transparent;
+    color: var(--light-grey);
+    border-radius: 5px;
+    background: var(--light-purple);
+}
+
+
+/* gap */
+
+.nav_gap {
+    gap: 65px;
+}
+
+.gap_20 {
+    gap: 20px;
+}
+
+
+/* max-width */
+
+.mw_683 {
+    max-width: 683px;
+}
+
+.mw_382 {
+    max-width: 382px;
+}
+
+.mw_390 {
+    max-width: 390px;
+}
+
+.mw_496 {
+    max-width: 490px;
+}
+
+.mw_530 {
+    max-width: 530px;
+}
+
+.mw_779 {
+    max-width: 779px;
+}
+
+.mw_824 {
+    max-width: 824px;
+}
+
+.mw_925 {
+    max-width: 925px;
+}
+
+.mw_887 {
+    max-width: 887px;
+}
+
+.mw_1350 {
+    max-width: 1350px !important;
+}
+
+
+/* line-height */
+
+.lh_140 {
+    line-height: 148.008%;
+}
+
+
+/* padding */
+
+.pb_43 {
+    padding-bottom: 43px;
+}
+
+.pl_28 {
+    padding-left: 12px !important;
+}
+
+.pr_28 {
+    padding-right: 12px !important;
+}
+
+.hero_padding {
+    padding: 40px 40px;
+}
+
+.custom_btn_padding {
+    padding: 10px 10px;
+}
+
+.custom_padding {
+    padding: 10px 37px;
+}
+
+.custom_padding2 {
+    padding: 10px 37px;
+}
+
+
+/* preloder */
+
+#preloder {
+    z-index: 5;
+}
+
+.preloder {
+    animation: preloder_one 7s infinite;
+}
+
+@keyframes preloder_one {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.9);
+    }
+    40% {
+        transform: scale(1.1);
+    }
+    60% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+
+/* back to top */
+
+.d_none {
+    display: none;
+}
+
+.back {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.back_top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid transparent;
+    background-color: var(--light-grey);
+    border-radius: 50%;
+    transform: rotate(270deg);
+    transition: all linear 0.3s !important;
+}
+
+.back_top_btn:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+
+/* hero-section */
+
+.bg_nav {
+    background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+nav ul li a {
+    text-decoration: none !important;
+    color: var(--white);
+    font-family: var(--ff-main);
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    -webkit-text-stroke: 0.5 white;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    right: 4%;
+    top: 2%;
+    z-index: 4;
+}
+
+.icon span {
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    transition: all linear 0.3s !important;
+}
+
+.crossLine1 {
+    rotate: 45deg;
+}
+
+.crossLine2 {
+    rotate: 135deg;
+    bottom: 80%;
+}
+
+.view {
+    flex-direction: column;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--black);
+    transition: all linear 0.3s;
+    transform: translate(-50% -50%);
+    justify-content: center;
+}
+
+
+/* hero */
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.bg_img {
+    background-image: url('../image/backer_hero.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_card {
+    width: 100%;
+    height: 436.027px;
+    border-radius: 4.659px;
+    opacity: 0.7;
+    background: var(--Purple, #8661C5);
+    box-shadow: 3.72705px 3.72705px 16.77172px 0px rgba(0, 0, 0, 0.70);
+}
+
+.hero_btn {
+    border-radius: 5px;
+    background: var(--Mid-Grey, #E9E6F5);
+    padding: 14px 42px;
+    border: 1px solid transparent;
+    max-width: 187px;
+    transition: all linear 0.3s;
+}
+
+.min_height {
+    min-height: 472px;
+}
+
+
+/* Welcome to MICROSOFT FOR STARTUP */
+
+.list {
+    list-style-type: disc !important;
+    ;
+}
+
+.b_bottom {
+    border-bottom: 1px solid #000;
+}
+
+.card_12 {
+    width: 100%;
+    height: 172.299px;
+    border-radius: 7.3px;
+    box-shadow: 0px 3.076772689819336px 7.69193172454834px 0px #00000040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: all linear 300ms;
+}
+
+
+/* parpal-card */
+
+.parpal_card {
+    border-radius: 5px;
+    border: 3px solid var(--Purple, #8661C5);
+    padding: 35px 12px 12px 18px;
+}
+
+.white_card {
+    border-radius: 5px;
+    border: 3px solid var(--Light-Grey, #FAF9FD);
+    padding: 52px 51px 14px 51px;
+    padding: 24px 24px 15px 24px;
+    transition: all 400ms linear;
+}
+
+
+/* slider */
+
+.parpal_card2 {
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    padding: 50px 6px;
+    border-radius: 3.144px;
+    width: 80%;
+    opacity: 0.7;
+    background: var(--Purple, #8661C5);
+    box-shadow: 2.51517px 2.51517px 11.31828px 0px rgba(0, 0, 0, 0.70);
+}
+
+.border {
+    border: 2px solid var(--Purple) !important;
+}
+
+.btn_pre {
+    position: absolute;
+    top: 50%;
+    left: -2%;
+    color: black;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.btn_next {
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    color: black;
+    border: 2px solid transparent;
+    background-color: transparent;
+}
+
+.preloader svg path {
+    transition: all linear 0.3s;
+}
+
+.preloader svg:hover path {
+    fill: black;
+}
+
+.link_line {
+    position: relative;
+}
+
+.link_line::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--link);
+}
+
+
+/* footer */
+
+.bg_white {
+    background: var(--Light-Grey, #FAF9FD);
+}
+
+ul li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+ul li a {
+    color: #2E2E2E;
+    font-size: var(--fs-sm);
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    list-style-type: none !important;
+    text-decoration: none;
+}
+
+.gap_15 {
+    gap: 15px;
+}
+
+
+/* ellipse */
+
+.img_set {
+    position: absolute;
+    top: -25%;
+    left: 0;
+    z-index: 0;
+}
+
+.img_set2 {
+    position: absolute;
+    bottom: -28%;
+    right: 0;
+    z-index: 0;
+}
+
+
+/* hover */
+
+.under_hover {
+    position: relative;
+}
+
+.under_hover::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 0;
+    bottom: -6px;
+    background: white;
+    height: 2px;
+    transition: all 0.3s linear !important;
+}
+
+.under_hover:hover {
+    color: white;
+}
+
+.under_hover:hover::after {
+    left: 0;
+    width: 100%;
+}
+
+.hero_btn:hover {
+    animation: pulsegreen 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+    border: 1px solid var(--light-purple);
+    color: var(--light-grey);
+    background-color: transparent;
+}
+
+@keyframes pulsegreen {
+    0% {
+        box-shadow: 0 0 var(--mid-grey);
+    }
+}
+
+.custom_btn:hover {
+    animation: animateed 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+    border: 1px solid var(--light-purple);
+    color: var(--light-purple);
+    background: transparent;
+}
+
+@keyframes animateed {
+    0% {
+        box-shadow: 0 0 #D59DFF;
+    }
+}
+
+.card_12:hover {
+    box-shadow: 0px 3.076772689819336px 7.69193172454834px 0px var(--mid-grey);
+}
+
+.img_hover {
+    transition: all 400ms linear;
+}
+
+.img_hover:hover {
+    transform: scale(1.07);
+}
+
+.white_card:hover {
+    border: 3px solid black;
+    box-shadow: 0px 3.076772689819336px 7.69193172454834px 0px black;
+}
+
+.white_card svg path {
+    transition: all linear 0.4s;
+}
+
+.white_card:hover svg path {
+    fill: black;
+}
+
+.footer_svg {
+    transition: all linear 0.3s;
+}
+
+.footer_svg:hover {
+    transform: translateY(-15%);
+}
+
+.footer_svg:hover svg path {
+    fill: red;
+}
+
+.footer-hover {
+    position: relative;
+}
+
+.footer-hover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0px;
+    background: #2E2E2E;
+    height: 2px;
+    transition: all linear 0.3s;
+}
+
+.footer-hover:hover::after {
+    right: 0;
+    width: 0;
+}
+
+
+/* @media-quary */
+
+@media (min-width:575.5px) {
+    .hero_padding {
+        padding: 67px 67px;
+    }
+    .hero_card {
+        height: 636.027px;
+    }
+    .custom_btn_padding {
+        padding: 12px 32px;
+    }
+    .custom_padding2 {
+        padding: 15px 37px;
+    }
+    .parpal_card2 {
+        position: absolute;
+        top: 30%;
+        left: 7%;
+        padding: 70px 9px;
+    }
+    .parpal_card {
+        padding: 48px 25px 25px 25px;
+    }
+}
+
+@media (min-width:767.5px) {
+    .nav_gap {
+        gap: 25px;
+    }
+    .view {
+        position: unset;
+        background-color: transparent;
+    }
+    .custom_btn_padding {
+        padding: 14px 42px;
+    }
+    .custom_padding2 {
+        padding: 10px 37px;
+    }
+}
+
+@media (min-width:991.5px) {
+    .nav_gap {
+        gap: 45px;
+    }
+    .hero_padding {
+        padding: 67px 24px;
+    }
+    .min_height {
+        min-height: 772px;
+    }
+    .white_card {
+        padding: 24px 24px 15px 24px;
+    }
+    .pl_28 {
+        padding-left: 12px !important;
+    }
+    .pr_28 {
+        padding-right: 12px !important;
+    }
+    .parpal_card2 {
+        position: absolute;
+        top: 30%;
+        left: 11%;
+    }
+}
+
+@media (min-width:1199.5px) {
+    .nav_gap {
+        gap: 65px;
+    }
+    .white_card {
+        padding: 52px 51px 14px 51px;
+    }
+    .custom_padding2 {
+        padding: 10px 37px;
+    }
+    .pl_28 {
+        padding-left: 28px !important;
+    }
+    .pr_28 {
+        padding-right: 28px !important;
+    }
+    .parpal_card2 {
+        position: absolute;
+        top: 30%;
+        left: 13%;
+    }
+    .btn_pre {
+        position: absolute;
+        top: 50%;
+        left: -3%;
+    }
+    .btn_next {
+        position: absolute;
+        top: 50%;
+        right: -3%;
+    }
+}
+
+@media (min-width:1399.5px) {
+    .hero_padding {
+        padding: 67px 100px;
+    }
+    .custom_padding2 {
+        padding: 37px 37px;
+    }
+    .parpal_card2 {
+        position: absolute;
+        top: 30%;
+        left: 12%;
+    }
+}
+
+@media (min-width:1699.5px) {
+    .hero_padding {
+        padding: 67px 124px;
+    }
+}
