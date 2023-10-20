@@ -49,35 +49,29 @@
     <!-- hero-section -->
     <header class="overflow-hidden">
         <div class="bg_nav">
-            <nav class="container">
-                <div class="icon pointer position-absolute d-flex d-md-none flex-column justify-content-between"
+            <nav class="custom_container_1600 container d-flex align-items-center justify-content-between">
+                <div><img class="page-logo cursor-pointer" src="/assets/image/logo.png" alt="page-logo"></div>
+                <div class="icon pointer position-absolute d-flex d-xl-none flex-column justify-content-between"
                     onclick="navbar()">
                     <span class="bg-white span1"></span>
                     <span class="bg-white position-relative span2"></span>
                     <span class="bg-white span3"></span>
                 </div>
-                <div class=" d-flex flex-md-row align-items-center justify-content-center  view">
+                <div
+                    class="d-flex flex-xl-row flex-column align-items-center justify-content-center justify-content-xl-end nav_gap view z-2">
                     <ul
-                        class=" d-flex flex-md-row flex-column align-items-center justify-content-center nav_gap mb-0 px-0 ">
+                        class="p-0 mb-0 d-flex nav_gap flex-xl-row flex-column align-items-center justify-content-center">
                         <li>
-                            <a href="#home" onclick="navbar2()" class="under_hover">Lorem Ipsum</a>
+                            <a class=" under_hover" href="#home" onclick="navbar2()">Lorem Ipsum</a>
                         </li>
-                        <li>
-                            <a href="#hub" onclick="navbar2()" class="under_hover">Founders Hub</a>
+                        <li><a class=" under_hover" href="#hub" onclick="navbar2()">Founders Hub</a> -
                         </li>
-                        <li>
-                            <a href="#benefits" onclick="navbar2()" class="under_hover">Benefits</a>
+                        <li><a class=" under_hover" href="#benefits" onclick="navbar2()">Benefits</a>
                         </li>
-                        <li>
-                            <a href="#programs" onclick="navbar2()" class="under_hover">Programs</a>
+                        <li><a class=" under_hover" href="#programs" onclick="navbar2()">Programs</a>
                         </li>
-                        <li>
-                            <a href="#lorem" onclick="navbar2()" class="under_hover">Lorem Ipsum</a>
-                        </li>
-                        <li>
-                            <a href="# footer" onclick="navbar2()" class="under_hover">Lorem Ipsum</a>
-                        </li>
-
+                        <li><a class=" under_hover" href="#lorem" onclick="navbar2()">Lorem Ipsum</a></li>
+                        <li><a class=" under_hover" href="#footer" onclick="navbar2()">Lorem Ipsum</a></li>
                     </ul>
                 </div>
             </nav>
@@ -86,8 +80,10 @@
         <div id="home" class="row flex-column-reverse flex-lg-row">
             <div class="col-lg-6 bg_img ">
                 <div class=" hero_padding   ">
-                    <div class="hero_card ps-3 ps-sm-4 ps-md-5 d-flex justify-content-center flex-column ">
-                        <h1 class=" mb-0 mw_496 ff_primery fs-xl color_white pb-2">MICROSOFT FOR STARTUP
+                    <div
+                        class="hero_card ps-3 ps-sm-4 ps-md-5 d-flex justify-content-center align-items-center align-items-md-start flex-column ">
+                        <h1 class=" mb-0 mw_496 ff_primery fs-xl color_white text-center text-md-start  pb-2">MICROSOFT
+                            FOR STARTUP
                         </h1>
                         <button class="hero_btn mt-4">Start Now</button>
                     </div>
@@ -101,86 +97,82 @@
     </header>
     <!-- Welcome to MICROSOFT FOR STARTUP -->
     <section id="hub" class="py-4 py-sm-5 bg_gray">
-        <div class="container custom_container py-4 py-sm-5">
-            <h2 class="mb-0 pb-4 text-center ff_primery parpal fs-lg">Welcome to <span> Microsoft For
+        <div class="container custom_container  py-4 py-sm-5">
+            <h2 class="mb-0 pb-4 text-center ff_primery parpal fs-lg text-center">Welcome to <span>
+                    Microsoft For
                     Startup</span></h2>
-            <p class="mw_683 mb-0 ff_main lh_140 fs-xsm me-auto ">Microsoft for Startups is a globalteam dedicated to
-                helping startups successfully build and scale their companies. The teamsupports qualifiedstartups across
-                fourmain pillars:
+            <p class="mw_683 mb-0 ff_main lh_140 fs-xsm mx-md-auto  text-center">Microsoft for Startups is a globalteam
+                dedicated to helping startups successfully build and scale their companies. The teamsupports
+                qualifiedstartups across fourmain pillars:
             </p>
-            <ul class="mb-0 pt-3">
-                <li class="mb-0 pb-2 list lh_140 ff_main ff-xsm">“Foundership” Skillset</li>
-                <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Global Sales</li>
-                <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Corporate Readiness</li>
-                <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Tech Enablement</li>
-            </ul>
-            <p class="mb-0 ff_main lh_140 fs-xsm mx-auto pt-3 pt-sm-4">The program supports startups by providing them
-                with Microsoft cloud credits, free access to selected Microsoft products and unique 3rd party offers for
-                entrepreneurs, via it’s digital platform called ׳Founders Hub׳</p>
+            <div class="d-flex justify-content-center align-items-center justify-content-md-start">
+                <ul class="mb-0 pt-3 d-flex flex-column">
+                    <li class="mb-0 pb-2 list lh_140 ff_main ff-xsm">“Foundership” Skillset</li>
+                    <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Global Sales</li>
+                    <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Corporate Readiness</li>
+                    <li class="mb-0 pb-2 pt-1 list lh_140 ff_main ff-xsm">Tech Enablement</li>
+                </ul>
+            </div>
+            <p class="mb-0 ff_main lh_140 fs-xsm mx-md-auto pt-3 pt-sm-4 text-center text-md-start">The program supports
+                startups by providing them with Microsoft cloud credits, free access to selected Microsoft products and
+                unique 3rd party offers for entrepreneurs, via it’s digital platform called ׳Founders Hub׳</p>
         </div>
     </section>
     <!-- MicroSpot - Whats New? -->
-    <section id="benefits" class=" pb-sm-4 pb-lg-5 position-relative">
+    <section id="benefits" class=" pb-sm-4 pb-lg-5 position-relative overflow-hidden">
         <div class="img_set2 d-none d-lg-block"><img src="./assets/image/ellipse.png" alt="ellips"></div>
         <div class="container custom_container_1600 pb-4 pb-lg-5 mb-4 mb-md-5 position-relative z-1">
             <h2 class="mb-0 text-center parpal py-4 py-lg-5 ff_primery ff-xsm fw-semibold parpal">MicroSpot - Whats New?
             </h2>
-            <div class="row pt-4 justify-content-center">
-                <div class="col-lg-4 col-md-6  pe-2">
-                    <div class="b_bottom h-100">
-                        <p class="mb-0 fs-md ff_primery pb-4 fw-semibold">Marketplace Summit // 22.6 @Herzelia</p>
-                        <div><img class="w-100" src="./assets/image/microsoft.png" alt="microsoft"></div>
-                        <div class="d-flex justify-content-between pt-4">
-                            <p class="mb-0 fs-xsm ff_main mw_382 pb-3 fw-normal">This event is a dedicated platform for
-                                ISVs and Service Partners to unlock the vast potential of the marketplace engine to
-                                simplify sales and supercharge growth.
-                            </p>
-                            <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                                        fill="black" />
-                                </svg>
-                            </span>
-                        </div>
+            <div class="slider1 pt-4 justify-content-center">
+                <div class="b_bottom h-100 mx-3">
+                    <p class="mb-0 fs-md ff_primery pb-4 fw-semibold">Marketplace Summit // 22.6 @Herzelia
+                    </p>
+                    <div><img class="w-100" src="./assets/image/microsoft.png" alt="microsoft"></div>
+                    <div class="d-flex justify-content-between pt-4">
+                        <p class="mb-0 fs-xsm ff_main mw_382 pb-3 fw-normal">This event is a dedicated platform for ISVs
+                            and Service Partners to unlock the vast potential of the marketplace engine to simplify
+                            sales and supercharge growth.
+                        </p>
+                        <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4 pt-sm-5 pt-md-0 px-2">
-                    <div class="b_bottom h-100">
-                        <p class="mb-0 fs-md ff_primery pb-3 fw-semibold">All Founders // 25.6 @TLV</p>
-                        <div><img class="w-100" src="./assets/image/june25th.png" alt="microsoft"></div>
-                        <div class="d-flex justify-content-between pt-4">
-                            <p class="mb-0 fs-xsm ff_main mw_382 pb-5 fw-normal ">All Founders by Microsoft for
-                                Startups, Israel’s largest founders’ gathering, created to inspire, connect and educate
-                                entrepreneurs.
-                            </p>
-                            <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                                        fill="black" />
-                                </svg>
-                            </span>
-                        </div>
+                <div class="b_bottom h-100 mx-3">
+                    <p class="mb-0 fs-md ff_primery pb-3 fw-semibold">All Founders // 25.6 @TLV</p>
+                    <div><img class="w-100" src="./assets/image/june25th.png" alt="microsoft"></div>
+                    <div class="d-flex justify-content-between pt-4">
+                        <p class="mb-0 fs-xsm ff_main mw_382 pb-5 fw-normal ">All Founders by Microsoft for Startups,
+                            Israel’s largest founders’ gathering, created to inspire, connect and educate entrepreneurs.
+                        </p>
+                        <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4 pt-sm-5 pt-lg-0 ps-2">
-                    <div class="b_bottom h-100">
-                        <p class="mb-0 fs-md ff_primery pb-3 fw-semibold">GenAI Discovery Day // 19.6 @TLV</p>
-                        <div><img class="w-100" src="./assets/image/june19.png" alt="microsoft"></div>
-                        <div class="d-flex justify-content-between pt-4">
-                            <p class="mb-0 fs-xsm ff_main mw_382 pb-5  fw-normal">A firsthand look at the latest NVIDIA
-                                & Microsoft technologies, tools and techniques that can help them take AI into
-                                production.
-                            </p>
-                            <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
-                                    fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
-                                        fill="black" />
-                                </svg>
-                            </span>
-                        </div>
+                <div class="b_bottom h-100 mx-3">
+                    <p class="mb-0 fs-md ff_primery pb-3 fw-semibold">GenAI Discovery Day // 19.6 @TLV</p>
+                    <div><img class="w-100" src="./assets/image/june19.png" alt="microsoft"></div>
+                    <div class="d-flex justify-content-between pt-4">
+                        <p class="mb-0 fs-xsm ff_main mw_382 pb-5  fw-normal">A firsthand look at the latest NVIDIA &
+                            Microsoft technologies, tools and techniques that can help them take AI into production.
+                        </p>
+                        <span class="d-flex align-items-end pb-2"><svg width="23" height="23" viewBox="0 0 23 23"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M22.2812 8.625H14.375V0.71875C14.375 0.528126 14.2993 0.345309 14.1645 0.210517C14.0297 0.0757252 13.8469 0 13.6562 0L9.34375 0C9.15313 0 8.97031 0.0757252 8.83552 0.210517C8.70073 0.345309 8.625 0.528126 8.625 0.71875V8.625H0.71875C0.528126 8.625 0.345309 8.70073 0.210517 8.83552C0.0757252 8.97031 0 9.15313 0 9.34375L0 13.6562C0 13.8469 0.0757252 14.0297 0.210517 14.1645C0.345309 14.2993 0.528126 14.375 0.71875 14.375H8.625V22.2812C8.625 22.4719 8.70073 22.6547 8.83552 22.7895C8.97031 22.9243 9.15313 23 9.34375 23H13.6562C13.8469 23 14.0297 22.9243 14.1645 22.7895C14.2993 22.6547 14.375 22.4719 14.375 22.2812V14.375H22.2812C22.4719 14.375 22.6547 14.2993 22.7895 14.1645C22.9243 14.0297 23 13.8469 23 13.6562V9.34375C23 9.15313 22.9243 8.97031 22.7895 8.83552C22.6547 8.70073 22.4719 8.625 22.2812 8.625Z"
+                                    fill="black" />
+                            </svg>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -191,15 +183,15 @@
         <div class="container py-5">
             <h2 class="mb-0 text-center pb-3 parpal ff_primery fs-lg fw-semibold">Founders Hub</h2>
             <p class="mb-0 text-center pt-1 pb-3 fw-semibold ff_primery fs-md">MicrosoS for Startups Digital PlaVorm</p>
-            <p class="mb-0 fs-xsm ff_main mw_779 mx-auto pt-1 fw-normal color_dark_gray">MicrosoM for Startups Founders
-                Hub brings people, knowledgeand benefits together to help founders at every stage solve startup
-                challenges. Sign up in minutes with no funding required.
+            <p class="mb-0 fs-xsm ff_main mw_779 mx-md-auto text-center pt-1 fw-normal color_dark_gray">MicrosoM for
+                Startups Founders Hub brings people, knowledgeand benefits together to help founders at every stage
+                solve startup challenges. Sign up in minutes with no funding required.
             </p>
-            <p class="mb-0 fs-xsm ff_main mw_779 mx-auto text-center py-4 py-lg-5 fw-normal color_dark_gray"> In addiTon
-                to thesupport and benefits founders get from the MicrosoM family of products and servicesin MicrosoM for
-                Startups Founders Hub, we also offer a porPolio of trusted partner offers to provide maximum value to
-                our in-program startups.
-                These exciTng partner offers are tailored to the needs of startups today</p>
+            <p class="mb-0 fs-xsm ff_main mw_779 mx-md-auto text-center py-4 py-lg-5 fw-normal color_dark_gray">
+                In addiTon to thesupport and benefits founders get from the MicrosoM family of products and servicesin
+                MicrosoM for Startups Founders Hub, we also offer a porPolio of trusted partner offers to provide
+                maximum value to our in-program startups. These exciTng
+                partner offers are tailored to the needs of startups today</p>
             <div class="mw_887 mx-auto pb-4 pb-sm-5  mb-sm-3"><img class="w-100" src="./assets/image/take_the_first.png"
                     alt="width"></div>
             <div class="text-center">
@@ -207,94 +199,93 @@
         </div>
     </section>
     <!-- Founders Hub Benefits -->
-    <section id="lorem" class="pb-4 position-relative">
+    <section id="lorem" class="pb-4 position-relative overflow-hidden">
         <div class="img_set d-none d-md-block"><img src="./assets/image/ellipse_left.png" alt="left"></div>
         <div class="container custom_container_1600 pt-4 pt-sm-5 position-relative z-1">
             <h2 class="text-center pt-2 ff_primery fs-lg">Founders Hub Benefits</h2>
-            <p class="mb-0 mw_824 mx-auto ff_main fs-xsm pt-4 pb-4">Microsoft for Startups Founders Hub brings people,
-                knowledge and benefits together to help founders at every stage solve startup challenges. Sign up in
-                minutes with no funding required. In addition to the support and benefits founders get
+            <p class="mb-0 mw_824 mx-md-auto ff_main fs-xsm pt-4 pb-4 text-center">Microsoft for Startups Founders Hub
+                brings people, knowledge and benefits together to help founders at every stage solve startup challenges.
+                Sign up in minutes with no funding required. In addition to the support and benefits founders get
                 from the Microsoft family of products and services in Microsoft for Startups Founders Hub, we also offer
                 a portfolio of trusted partner offers to provide maximum value to our in-program startups. These
                 exciting partner offers are tailored
                 to the needs of startups today.</p>
-
-            <div class="row pt-5 pb-4">
+            <div class="row pt-5 pb-4 slider_card">
                 <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2">
                     <div class="card_12  px-4">
                         <div><img src="./assets/image/openUl.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  pt-3 pt-sm-0 px-2">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 px-2">
                     <div class="card_12">
                         <div><img src="./assets/image/linked.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 pt-3 pt-md-0  px-2">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 px-2">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/meruary.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  pt-3 pt-xl-0 px-2">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 px-2">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/drata.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  pt-3 pt-xxl-0 px-2">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 px-2">
                     <div class="card_12">
                         <div><img class="w-100" src="./assets/image/bubble.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  pt-3 pt-xxl-0 px-2">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 px-2">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/close.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/miro.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/ansarada.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/codesee.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/massdriver.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12 ">
                         <div><img class="w-100" src="./assets/image/stripe.png" alt=""></div>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-3">
+                <div data-aos="flip-left" class="col-xxl-2 col-xl-3 col-md-4 col-sm-6  px-2 pt-lg-3">
                     <div class="card_12">
                         <div><img class="w-100" src="./assets/image/angellist.png" alt=""></div>
                     </div>
                 </div>
             </div>
-
-            <div class="mw_1350 container mx-auto pb-3 pb-sm-4 pb-md-6 mb-md-5">
-                <div class="row py-3 py-sm-4 py-md-5 mt-3 mt-sm-4 mt-md-5 justify-content-center">
-                    <div class="col-lg-4 col-md-6 text-center">
-                        <button class="custom_btn custom_padding2 ff_primery fs-lg h-100">Apply to FH program</button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center pt-3 pt-sm-4 pt-md-0">
-                        <button class="custom_btn custom_padding ff_primery fs-lg">More informaTon
-                            on benefits</button>
-                    </div>
-                    <div class="col-lg-4 col-md-6 text-center pt-3 pt-sm-4 pt-md-5 pt-lg-0">
-                        <button class="custom_btn custom_padding ff_primery fs-lg">Learn more on
-                            Azure credits</button>
-                    </div>
+        </div>
+        <div class="mw_1350 container mx-auto pb-3 pb-sm-4 pb-md-6 mb-md-5">
+            <div class="row py-3 py-sm-4 py-md-5 mt-3 mt-sm-4 mt-md-5 justify-content-center">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <button class="custom_btn custom_padding2 ff_primery fs-lg h-100">Apply to FH
+                        program</button>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center pt-3 pt-sm-4 pt-md-0">
+                    <button class="custom_btn custom_padding ff_primery fs-lg">More informaTon
+                        on benefits</button>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center pt-3 pt-sm-4 pt-md-5 pt-lg-0">
+                    <button class="custom_btn custom_padding ff_primery fs-lg">Learn more on
+                        Azure credits</button>
                 </div>
             </div>
         </div>
@@ -372,7 +363,6 @@
                                 <li class="list lh_140 mw_496 ff_main fs-xsm">The AI for Good Acceleration Program helps
                                     purpose-driven ventures in Israel advance their AI solutions to create positive
                                     social transformation.
-
                                 </li>
                                 <li class="list fs-xsm ff_main pt-4 pb-3 lh_140 mw_530  "> <span
                                         class="fs-xsm ff_primery">Format:</span> For the fourth year running, Microsoft
@@ -385,7 +375,6 @@
                                         join:</span> Who can join: Startups like yours with innovative technology so you
                                     can focus on what you do best: bring your vision of making the world a better place
                                     to live.
-
                                 </li>
                                 <li class="list fs-xsm ff_main pt-4 pb-3 lh_140 mw_530  "><span
                                         class="fs-xsm ff_primery">Timeline:</span>Registration for the 4th cohort is
@@ -427,7 +416,6 @@
                                     startup founders
                                     to work more efficiently and collaboratively, while leveraging Microsoft’s products,
                                     technology, ande xperts to boost their growth.
-
                                 </li>
                                 <li class="list fs-xsm ff_main pt-4 pb-3 lh_140 mw_530  "> <span
                                         class="fs-xsm ff_primery">Format:</span> The Startup Space initiative cohort is
@@ -539,7 +527,7 @@
             <div class="row justify-content-center pt-4 pt-md-5">
                 <div data-aos="flip-left" class="col-xl-4 col-md-6   pl_28 pr_28">
                     <div class="parpal_card h-100">
-                        <span class="d-flex justify-content-center pb-2">
+                        <span class="d-flex justify-content-center pb-2 svg2_wh">
                             <svg xmlns="http://www.w3.org/2000/svg" width="144" height="145" viewBox="0 0 144 145"
                                 fill="none">
                                 <path
@@ -556,18 +544,21 @@
                         <p class="mb-0 text-center pt-4 d-flex justify-content-center ff_primery fs-lg parpal">Technical
                             Enablement Training Days
                         </p>
-                        <p class=" fs-xsm ff_main pt-3 lh_140 text-center pb-5 mb-3 black ">Technical Enablement
-                            Training Days - a series of hands-on technical skilling events for all Microsoft for
-                            Startups Founders Hub startups inIsrael, available as a free program benefit. These sessions
-                            are ideal for technical founders,
+                        <p class=" fs-xsm ff_main pt-3 lh_140 text-center pb-5 mb-3 black d-none d-sm-block ">Technical
+                            Enablement Training Days - a series of hands-on technical skilling events for all Microsoft
+                            for Startups Founders Hub startups inIsrael, available as a free program benefit. These
+                            sessions are ideal for technical founders,
                             developers and team members looking to learn more about building software on Microsoft Azure
                             utlizing key Founders Hub benefits such as Azure credits, GitHub Enterprise licensing,
                             OpenAI etc.</p>
+                        <p class=" fs-xsm ff_main pt-3 lh_140 text-center pb-5 mb-3 black d-sm-none d-block">a series of
+                            hands-on technical skilling events for all MicrosoM for Startups Founders Hub startups in
+                            Israel, available as a free program benefit.</p>
                     </div>
                 </div>
                 <div data-aos="flip-left" class="col-xl-4 col-md-6 pt-4 pt-md-0   pl_28 pr_28">
                     <div class="parpal_card h-100">
-                        <span class="d-flex justify-content-center pb-2">
+                        <span class="d-flex justify-content-center pb-2 svg_wh">
                             <svg xmlns="http://www.w3.org/2000/svg" width="134" height="133" viewBox="0 0 134 133"
                                 fill="none">
                                 <path
@@ -588,19 +579,22 @@
                             class="mb-0 text-center pt-4 pb-3 d-flex justify-content-center ff_primery fs-lg parpal mx-auto mw_382">
                             Founders Hub Discovery Days
                         </p>
-                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black ">Founders Hub Discovery Days -
-                            Founders Hub Discovery days are a unique set of events designed for technical founders and
-                            CTOs in early-stage SaaS startups. Led by the Microsoft for Startups team, eachDiscovery Day
-                            focuses on a
+                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black d-none d-sm-block ">Founders
+                            Hub Discovery Days - Founders Hub Discovery days are a unique set of events designed for
+                            technical founders and CTOs in early-stage SaaS startups. Led by the Microsoft for Startups
+                            team, eachDiscovery Day focuses on a
                             key technology/domain in the Microsoft Cloud investment strategy, providing founders with a
                             deep technical overview and roadmap, internal best practices from the Microsoft Cloud
                             product team and vast networking opportunities
                             relevant SaaS startups from the ecosystem.</p>
+                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black d-block d-sm-none ">Founders
+                            Hub Discovery days are a unique set of events designed for technical founders and CTOs in
+                            early-stage SaaS startups.</p>
                     </div>
                 </div>
                 <div data-aos="flip-left" class="col-xl-4 col-md-6  pt-4 pt-xl-0  pl_28 pr_28">
                     <div class="parpal_card h-100">
-                        <span class="d-flex justify-content-center pb-2">
+                        <span class="d-flex justify-content-center pb-2 svg_wh">
                             <svg width="132" height="134" viewBox="0 0 132 134" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -639,21 +633,24 @@
                             class="mb-0 text-center pt-4 pb-3 d-flex justify-content-center ff_primery fs-lg parpal mw_390 mx-auto">
                             Founders Hub Growth Events & Azure Technical Advisory
                         </p>
-                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black ">Founders Hub Growth Events &
-                            Azure Technical Advisory - an in-depth1:1 session with an expert Microsoft engineer or
-                            localized specialist from across the local ecosystem, specializing in Azure technologies and
-                            services. Founders
+                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black d-none d-sm-block ">Founders
+                            Hub Growth Events & Azure Technical Advisory - an in-depth1:1 session with an expert
+                            Microsoft engineer or localized specialist from across the local ecosystem, specializing in
+                            Azure technologies and services. Founders
                             can dive deeper into a wide range of topics, such as: Onboarding azure services,
                             architecture review, design review, implementation review, deployment review, cost
                             optimization.
                         </p>
+                        <p class="mb-0 fs-xsm ff_main pt-3 lh_140 text-center pb-1 black d-block d-sm-none ">an
+                            in-depth1:1session with an expert MicrosoM engineer or localized specialist from across the
+                            local ecosystem, specializing in Azure technologies and services.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--Ecosystem Events & Partnership  -->
-    <section class="bg_parpal pt-5 mt-4">
+    <section class="bg_parpal pt-5 mt-4 overflow-hidden">
         <div class="container custom_container_1140 ">
             <h2 class="mb-0 ff_primery fw-semibold fs-lg parpal text-center">Ecosystem Events & Partnership</h2>
             <p class="mb-0  ff_main fs-xsm  text-center pt-4 pb-4 pb-md-5 mw_925 mx-auto parpal">Microsoft for Startups
@@ -662,33 +659,35 @@
                 together, collaborating
                 in designing meaningful content experiences or by joiningMfS on-going programs and sharing their
                 implicit knowledge, network connections, and expertise with our Founders Hub community.</p>
-            <div class="row py-4 py-md-5">
-                <div class="col-lg-4 col-md-6">
+
+            <div class="row py-4 py-md-5 slider2">
+
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img1.png" alt="patnership">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4 pt-md-0">
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img2.png" alt="patnership">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4 pt-lg-0">
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img3.png" alt="patnership">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4">
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0 pt-lg-4">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img4.png" alt="patnership">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4">
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0 pt-lg-4">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img5.png" alt="patnership">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 pt-4">
+                <div class="col-lg-4 col-md-6 mx-3 mx-lg-0 pt-lg-4">
                     <div class="overflow-hidden"><img class="w-100 img_hover rounded-3"
                             src="./assets/image/patnership_img6.png" alt="patnership">
                     </div>
@@ -698,7 +697,7 @@
         <div class="container custom_container_1588 pb-4 mb-3">
             <p class="mb-0 pb-5 text-center ff_primery fs-lg">Take an Active Part!</p>
             <div class="row justify-content-center pb-5">
-                <div data-aos="flip-left" class="col-lg-4 col-md-6  pl_28 pr_28">
+                <div data-aos="flip-left" class="col-lg-4 col-md-6 pb-2 pb-md-0 pl_28 pr_28">
                     <div class="white_card h-100">
                         <span class="d-flex justify-content-center pb-2"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="140" height="128" viewBox="0 0 140 128" fill="none">
@@ -718,9 +717,9 @@
                         <p class="mb-0 text-center pt-4 pb-5 fs-lg ff_primery ">Partnerships with MfS</p>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-lg-4 col-md-6 pt-3 pt-sm-4 pt-md-0  pl_28 pr_28">
+                <div data-aos="flip-left" class="col-lg-4 col-md-6 pt-3 pt-sm-4 pt-md-0 pb-2 pb-md-0 pl_28 pr_28">
                     <div class="white_card h-100">
-                        <span class="d-flex justify-content-center pb-2"><svg xmlns="http://www.w3.org/2000/svg"
+                        <span class="d-flex justify-content-center pb-2 "><svg xmlns="http://www.w3.org/2000/svg"
                                 width="127" height="127" viewBox="0 0 127 127" fill="none">
                                 <path
                                     d="M51.5019 126.707C38.4011 126.707 25.3004 126.707 12.2034 126.707C11.2133 126.707 10.2233 126.748 9.2369 126.681C3.99364 126.322 0.571056 123.007 0.0556293 117.767C-0.0407815 116.788 0.0185482 115.791 0.0185482 114.804C0.0185482 91.447 0.0185482 68.0896 0.0222563 44.7322C0.0222563 43.5012 -0.0259491 42.2441 0.189121 41.039C0.415315 39.7745 1.44246 39.0551 2.6513 39.4148C3.43742 39.6521 4.36074 40.4197 4.63143 41.1613C4.99112 42.1514 4.802 43.3528 4.802 44.4653C4.80571 67.4518 4.802 90.4384 4.80571 113.425C4.80571 114.537 4.74267 115.657 4.83909 116.758C5.13573 120.096 6.66347 121.594 10.0304 121.876C11.0131 121.957 12.0069 121.913 12.9969 121.913C38.7015 121.913 64.4098 121.913 90.1144 121.913C90.856 121.913 91.5976 121.931 92.3392 121.902C96.4219 121.746 97.3155 120.934 97.7902 116.97C97.894 116.113 97.9051 115.242 98.0386 114.393C98.2129 113.284 98.9323 112.45 100.019 112.628C100.857 112.761 101.98 113.328 102.31 114.022C104.087 117.745 101.294 124.523 97.3637 125.851C95.5393 126.466 93.4962 126.663 91.5494 126.67C78.2039 126.737 64.8548 126.707 51.5093 126.707H51.5019Z"
@@ -756,9 +755,10 @@
                         <p class="mb-0 text-center pt-4 fs-lg ff_primery ">Signup to get Mfs updates</p>
                     </div>
                 </div>
-                <div data-aos="flip-left" class="col-lg-4 col-md-6 pt-3 pt-sm-4 pt-md-5 pt-lg-0  pl_28 pr_28">
+                <div data-aos="flip-left"
+                    class="col-lg-4 col-md-6 pt-3 pt-sm-4 pt-md-5 pt-lg-0 pb-2 pb-md-0 pl_28 pr_28">
                     <div class="white_card h-100">
-                        <span class="d-flex justify-content-center pb-2"><svg width="129" height="128"
+                        <span class="d-flex justify-content-center pb-2 "><svg width="129" height="128"
                                 viewBox="0 0 129 128" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M54.7798 85.2876C56.5511 80.9312 58.3077 76.6337 60.0495 72.3325C60.6461 70.8558 61.2353 69.3755 61.795 67.884C62.2958 66.5473 62.9513 65.4352 64.6158 65.4536C66.1441 65.4683 66.6522 66.5841 67.1383 67.7441C69.1711 72.6013 71.3327 77.407 73.2034 82.3268C74.2566 85.0998 75.737 86.3187 78.8929 86.2745C83.647 86.2082 88.4122 86.79 93.1737 87.1141C94.4957 87.2025 96.0276 86.9963 96.5873 88.6423C97.2134 90.4799 96.0644 91.5221 94.7645 92.6268C90.0141 96.6628 85.3483 100.806 80.4911 105.048C81.8315 110.321 83.1572 115.525 84.4793 120.728C84.7518 121.796 85.2452 122.864 85.2305 123.928C85.2194 124.922 84.9285 126.197 84.2657 126.804C83.7612 127.264 82.4355 127.044 81.5553 126.815C80.7562 126.609 80.0676 125.99 79.3311 125.545C74.2971 122.518 69.2631 119.491 64.0818 116.375C59.3572 119.332 54.6915 122.253 50.0294 125.169C49.1972 125.688 48.4201 126.403 47.5142 126.664C46.5457 126.944 45.1538 127.206 44.4983 126.723C43.8649 126.259 43.5887 124.775 43.7544 123.847C44.3362 120.599 45.1759 117.395 45.9197 114.177C46.4979 111.673 47.0539 109.161 47.6689 106.668C48.0961 104.945 47.6947 103.707 46.207 102.536C42.4508 99.5868 38.8456 96.4456 35.1815 93.3817C34.7138 92.9877 34.2683 92.5605 33.7748 92.1996C32.6075 91.3453 31.5432 90.1964 32.3239 88.8375C32.8137 87.9869 34.1836 87.324 35.2404 87.1841C38.8751 86.7053 42.5465 86.5102 46.1996 86.1714C48.9909 85.9136 51.7786 85.6006 54.7761 85.2913L54.7798 85.2876ZM78.2926 119.17C78.5246 119.019 78.753 118.868 78.985 118.721C78.0938 115.212 77.4199 111.629 76.2525 108.215C75.0484 104.694 75.7112 102.234 78.775 99.9771C81.861 97.705 84.5713 94.921 88.1433 91.743C86.0443 91.4705 84.8917 91.2753 83.728 91.1833C80.318 90.9108 76.9043 90.6088 73.487 90.4689C71.863 90.4026 71.0381 89.6108 70.5299 88.2189C70.2353 87.4161 69.9076 86.6243 69.5688 85.8363C68.0332 82.3011 66.4902 78.7659 64.9288 75.1901C64.4059 75.5142 64.0929 75.5952 64.0156 75.7757C62.8593 78.4749 61.6956 81.1705 60.6092 83.8956C57.8437 90.8261 58.7938 89.8686 51.4251 90.4468C48.0998 90.7082 44.7855 91.1059 41.3608 91.4484C41.6001 92.0855 41.6186 92.3801 41.7732 92.5127C44.0195 94.4091 46.2806 96.2799 48.5417 98.1579C53.5609 102.327 53.5388 102.323 52.099 108.517C51.3109 111.905 50.6112 115.315 49.6869 119.575C53.7929 117.02 57.225 115.134 60.3625 112.844C62.9439 110.958 65.0319 110.944 67.6612 112.774C71.0455 115.127 74.7317 117.057 78.2853 119.167L78.2926 119.17Z"
@@ -791,11 +791,10 @@
     </section>
     <!-- footer -->
     <footer id="footer">
-        <div class="container custom_container_1588 py-2 py-md-4">
+        <div class="container custom_container_1588 py-2 py-md-4 text-center text-md-start">
             <div class="row justify-content-center py-4 py-md-5">
-
-                <div class="col-lg-4 col-md-6 ">
-                    <p class="ff_primery fs-lg parpal mb-0">Connect & Contact Us</p>
+                <div class="col-xl-4 col-md-6 ">
+                    <p class="ff_primery fs-lg parpal mb-0 pb-2 pb-md-0">Connect & Contact Us</p>
                     <ul class="px-0">
                         <li>
                             <a href="#" class="footer-hover">Facebook page link</a>
@@ -808,8 +807,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6 ">
-                    <p class="ff_primery fs-lg parpal mb-0">Support</p>
+                <div class="col-xl-3 col-md-6 ">
+                    <p class="ff_primery fs-lg parpal mb-0 pb-2 pb-md-0">Support</p>
                     <ul class="px-0">
                         <li>
                             <a href="#" class="footer-hover">Blog</a>
@@ -823,7 +822,7 @@
                     </ul>
                 </div>
                 <div
-                    class="col-lg-5 col-md-6  d-flex  justify-content-start justify-content-md-center justify-content-lg-end align-items-end  ">
+                    class="col-xl-5 col-md-6  d-flex justify-content-center justify-content-xl-end align-items-end pt-4 pt-xl-0  ">
                     <div class="d-flex align-items-center gap_15">
                         <a href="#" target="_blank" class=" footer_svg"><svg width="30" height="30" viewBox="0 0 30 30"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -839,9 +838,7 @@
                                         d="M23.3988 17.9988C23.3988 19.4309 22.8298 20.8044 21.8171 21.8171C20.8044 22.8298 19.4309 23.3988 17.9988 23.3988C16.5666 23.3988 15.1931 22.8298 14.1804 21.8171C13.1677 20.8044 12.5987 19.4309 12.5987 17.9988C12.5987 17.691 12.6311 17.3904 12.6869 17.0988H10.7987V24.2934C10.7987 24.7937 11.2037 25.1987 11.7041 25.1987H24.2952C24.535 25.1983 24.7648 25.1027 24.9342 24.9329C25.1036 24.7632 25.1988 24.5332 25.1987 24.2934V17.0988H23.3106C23.3664 17.3904 23.3988 17.691 23.3988 17.9988ZM17.9988 21.5988C18.4716 21.5986 18.9398 21.5054 19.3767 21.3243C19.8135 21.1432 20.2104 20.8779 20.5447 20.5434C20.879 20.209 21.1441 19.8119 21.325 19.375C21.5058 18.9381 21.5989 18.4698 21.5988 17.997C21.5986 17.5241 21.5054 17.0558 21.3243 16.619C21.1432 16.1822 20.8779 15.7853 20.5434 15.451C20.209 15.1167 19.8119 14.8516 19.375 14.6707C18.9381 14.4899 18.4698 14.3968 17.997 14.3969C17.0419 14.3972 16.1261 14.7768 15.451 15.4523C14.7759 16.1277 14.3967 17.0437 14.3969 17.9988C14.3972 18.9538 14.7768 19.8696 15.4523 20.5447C16.1277 21.2198 17.0437 21.599 17.9988 21.5988ZM22.3187 14.2188H24.4769C24.6203 14.2188 24.7579 14.1619 24.8594 14.0607C24.961 13.9595 25.0183 13.8221 25.0187 13.6787V11.5205C25.0187 11.3769 24.9617 11.239 24.8601 11.1374C24.7585 11.0358 24.6206 10.9787 24.4769 10.9787H22.3187C22.1751 10.9787 22.0372 11.0358 21.9356 11.1374C21.834 11.239 21.777 11.3769 21.777 11.5205V13.6787C21.7787 13.9757 22.0217 14.2188 22.3187 14.2188ZM17.9988 0.71875C13.4158 0.71875 9.02057 2.53932 5.77994 5.77994C2.53932 9.02057 0.71875 13.4158 0.71875 17.9988C0.71875 22.5817 2.53932 26.9769 5.77994 30.2176C9.02057 33.4582 13.4158 35.2788 17.9988 35.2788C20.268 35.2788 22.515 34.8318 24.6115 33.9634C26.708 33.095 28.613 31.8222 30.2176 30.2176C31.8222 28.613 33.095 26.708 33.9634 24.6115C34.8318 22.515 35.2788 20.268 35.2788 17.9988C35.2788 15.7295 34.8318 13.4825 33.9634 11.386C33.095 9.28947 31.8222 7.38454 30.2176 5.77994C28.613 4.17535 26.708 2.90251 24.6115 2.03411C22.515 1.16571 20.268 0.71875 17.9988 0.71875ZM26.9988 24.9989C26.9988 26.0987 26.0987 26.9988 24.9989 26.9988H10.9985C9.89875 26.9988 8.99875 26.0987 8.99875 24.9989V10.9985C8.99875 9.89875 9.89875 8.99875 10.9985 8.99875H24.9989C26.0987 8.99875 26.9988 9.89875 26.9988 10.9985V24.9989Z"
                                         fill="black" />
                                 </g>
-
                             </svg>
-
                         </a>
                         <a href="#" target="_blank" class=" footer_svg"><svg width="36" height="36" viewBox="0 0 36 36"
                                 fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -873,7 +870,6 @@
                 d="M10.5005 16.5011C10.5005 16.9565 10.6548 17.3384 10.9633 17.647C11.2708 17.9545 11.6523 18.1083 12.1076 18.1083L17.2505 18.1083L15.8041 19.5547C15.5094 19.8493 15.3621 20.2243 15.3621 20.6797C15.3621 21.135 15.5094 21.51 15.8041 21.8047C16.0987 22.0993 16.4737 22.2466 16.9291 22.2466C17.3844 22.2467 17.7594 22.0993 18.0541 21.8047L22.2326 17.6261C22.3933 17.4654 22.5075 17.2913 22.575 17.1038C22.6414 16.9163 22.6746 16.7154 22.6746 16.5011C22.6746 16.2868 22.6414 16.0859 22.575 15.8984C22.5075 15.7109 22.3933 15.5368 22.2326 15.3761L18.0541 11.1975C17.7594 10.9029 17.3844 10.7556 16.9291 10.7556C16.4737 10.7556 16.0987 10.9029 15.8041 11.1975C15.5094 11.4922 15.3621 11.8672 15.3621 12.3225C15.3621 12.7779 15.5094 13.1529 15.8041 13.4475L17.2505 14.894L12.1076 14.894C11.6523 14.894 11.2708 15.0483 10.9633 15.3568C10.6548 15.6643 10.5005 16.0458 10.5005 16.5011ZM0.857631 16.5011C0.857631 14.2779 1.27978 12.1886 2.12406 10.2333C2.96728 8.2779 4.11209 6.57701 5.55852 5.13058C7.00495 3.68415 8.70585 2.53933 10.6612 1.69612C12.6166 0.85183 14.7058 0.429687 16.9291 0.429687C19.1523 0.429687 21.2416 0.85183 23.1969 1.69612C25.1523 2.53933 26.8532 3.68415 28.2996 5.13058C29.746 6.57701 30.8914 8.2779 31.7357 10.2333C32.5789 12.1886 33.0005 14.2779 33.0005 16.5011C33.0005 18.7243 32.5789 20.8136 31.7357 22.769C30.8914 24.7243 29.746 26.4252 28.2996 27.8717C26.8532 29.3181 25.1523 30.4629 23.1969 31.3061C21.2416 32.1504 19.1523 32.5725 16.9291 32.5725C14.7058 32.5725 12.6166 32.1504 10.6612 31.3061C8.70585 30.4629 7.00495 29.3181 5.55852 27.8717C4.11209 26.4252 2.96727 24.7243 2.12406 22.769C1.27977 20.8136 0.857631 18.7243 0.857631 16.5011Z"
                 fill="#8661C5" />
         </svg>
-
     </button>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
@@ -890,6 +886,87 @@
         AOS.init({
             duration: 1500,
             once: true
+        });
+    </script>
+    <script>
+        $('.slider1').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            arrow: false,
+
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+
+                    }
+                }, {
+                    breakpoint: 768,
+                    settings: {
+                        autoplay: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        arrow: false,
+                        Speed: 2500,
+                        pauseOnHover: false,
+                        cssEase: 'linear',
+                    }
+                }, {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+        });
+    </script>
+    <script>
+        $('.slider_card').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 9999,
+                    settings: "unslick",
+                }, {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2.5,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        arrow: false,
+                        Speed: 2500,
+                        pauseOnHover: false,
+                        cssEase: 'linear',
+                    }
+                }, {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1.3,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
         });
     </script>
     <script>
@@ -932,6 +1009,46 @@
             ]
         });
     </script>
+    <script>
+        $('.slider2').slick({
+            dots: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            responsive: [{
+                    breakpoint: 9999,
+                    settings: "unslick",
+                }, {
+                    breakpoint: 992,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }, {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        arrow: false,
+                        Speed: 2500,
+                        pauseOnHover: false,
+                        cssEase: 'linear',
+                    }
+                }, {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+
+            ]
+        });
+    </script>
 </body>
 
-</html> data-aos="flip-left"
+</html>
